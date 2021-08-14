@@ -23,6 +23,10 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/tentang-kami', function () {
+    return view('tentangKami');
+});
+
 Route::get('/register-page', function () {
     return view('registerPage');
 });
